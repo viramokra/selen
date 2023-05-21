@@ -1,0 +1,332 @@
+{
+  "id": "63fb353c-7ef2-4cbd-8b9c-ce45e3b6b4e9",
+  "version": "2.0",
+  "name": "Test selenium",
+  "url": "https://book-ye.com.ua/",
+  "tests": [{
+    "id": "35815cbb-dec6-4f0c-aaae-4c101f4a92df",
+    "name": "пошук товару по фільтру",
+    "commands": [{
+      "id": "b859621d-229d-4232-b8b1-151ddf5e4c13",
+      "comment": "",
+      "command": "open",
+      "target": "https://book-ye.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1391323-b469-4336-9907-bffe39420413",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x940",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b1a0d81-1c06-4c86-b8d1-3c6b695d246a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Видавництва",
+      "targets": [
+        ["linkText=Видавництва", "linkText"],
+        ["css=.header__top-nav-link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Видавництва')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/edition/')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Видавництва')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ca35089-96f1-407c-8244-320a0c179ad9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#bx_3218110189_12573 > .pub-house__link",
+      "targets": [
+        ["css=#bx_3218110189_12573 > .pub-house__link", "css:finder"],
+        ["xpath=//li[@id='bx_3218110189_12573']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/vydavnytstva/filter/vidavnitstvo_tov-is-a-ba-ba-ga-la-ma-ga/')]", "xpath:href"],
+        ["xpath=//section[2]/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f8cab67-3634-4ff6-87f2-b09513590d69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-12:nth-child(6) .filter__fieldset:nth-child(3) > .bx-filter-param-text",
+      "targets": [
+        ["css=.col-lg-12:nth-child(6) .filter__fieldset:nth-child(3) > .bx-filter-param-text", "css:finder"],
+        ["xpath=//div[2]/fieldset[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Українські народні казки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a6ddc2b-236e-4e11-b9f1-81629dafd39c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Дивитись усі')]",
+      "targets": [
+        ["css=.col-lg-12:nth-child(6) .watch-more > span", "css:finder"],
+        ["xpath=//section/div[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Дивитись усі')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00ba34a4-8ee7-4d5e-b338-b1c3463c0c16",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label[contains(.,'Дитячі пригодницькі романи')]",
+      "targets": [
+        ["css=.active > .filter__fieldset:nth-child(11) > .bx-filter-param-text", "css:finder"],
+        ["xpath=//fieldset[11]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Дитячі пригодницькі романи')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b29e610-2d46-4230-ba74-a821e4605be8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-12:nth-child(10) .filter__fieldset:nth-child(1) > .bx-filter-param-text",
+      "targets": [
+        ["css=.col-lg-12:nth-child(10) .filter__fieldset:nth-child(1) > .bx-filter-param-text", "css:finder"],
+        ["xpath=//div[6]/div/div/section/div[2]/fieldset/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bc9f8cf-1fa2-4877-8a8b-ec5064ae7e88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-12:nth-child(11) .filter__fieldset:nth-child(2) > .bx-filter-param-text",
+      "targets": [
+        ["css=.col-lg-12:nth-child(11) .filter__fieldset:nth-child(2) > .bx-filter-param-text", "css:finder"],
+        ["xpath=//div[7]/div/div/section/div[2]/fieldset[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6eea1e0a-6652-4fd5-9b09-a2e58c715dec",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label[contains(.,'Гаррі Поттер')]",
+      "targets": [
+        ["css=.col-lg-12:nth-child(12) .filter__fieldset:nth-child(2) > .bx-filter-param-text", "css:finder"],
+        ["xpath=//div[8]/div/div/section/div[2]/fieldset[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Гаррі Поттер')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8da8b984-d6da-4a95-bf34-3185ccd16561",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Застосувати",
+      "targets": [
+        ["linkText=Застосувати", "linkText"],
+        ["css=.filter__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Застосувати')]", "xpath:link"],
+        ["xpath=//div[@id='modef']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/vydavnytstva/filter/tematika-is-dytyachi-pryhodnytski-romany/vidavnitstvo_tov-is-a-ba-ba-ga-la-ma-ga/mova-is-98145c0a-05a5-11e7-80c5-000c29ae1566/obkladinka-is-3758ead6-056a-11e7-80c5-000c29ae1566/seriya_knig_vid_vidavnitstva-is-faa02e19-095b-11e7-80c5-000c29ae1566/')]", "xpath:href"],
+        ["xpath=//span/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Застосувати')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3f26c7a6-d64b-47f0-86fe-737cf15102ef",
+    "name": "add book in backet",
+    "commands": [{
+      "id": "65d5ae74-d9f2-4e3c-8483-54f2446b5a13",
+      "comment": "",
+      "command": "open",
+      "target": "https://book-ye.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92f967f4-7147-440c-b0df-7fa9f473f9e0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x940",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21961ca1-cd19-4a43-a003-c953bdb2bbfe",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, '#')]",
+      "targets": [
+        ["css=.header__catalog-btn", "css:finder"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69c2decc-2b14-42e7-84ca-8291d93d6ae2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Художня література",
+      "targets": [
+        ["linkText=Художня література", "linkText"],
+        ["css=.js-highlight", "css:finder"],
+        ["xpath=//a[contains(text(),'Художня література')]", "xpath:link"],
+        ["xpath=//div[@id='mCSB_1_container']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/khudozhnya-literatura/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Художня література')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17ed6e1f-c46f-43aa-a62d-fe63ba83fe95",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Детективи",
+      "targets": [
+        ["linkText=Детективи", "linkText"],
+        ["css=#bx_1847241719_543 > .catalog__menu-list-item-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Детективи')])[5]", "xpath:link"],
+        ["xpath=//li[@id='bx_1847241719_543']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/catalog/detektyvy/')])[2]", "xpath:href"],
+        ["xpath=//section/div/div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e20e104-f85b-4b78-8478-7a1228af686d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#bx_3966226736_548804 .product__media",
+      "targets": [
+        ["css=#bx_3966226736_548804 .product__media", "css:finder"],
+        ["xpath=//img[@alt='Останнє, що він мені сказав']", "xpath:img"],
+        ["xpath=//div[@id='bx_3966226736_548804']/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7178770-5e6a-4473-8b30-a8bfc002dfa8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Купити",
+      "targets": [
+        ["linkText=Купити", "linkText"],
+        ["css=.button--width", "css:finder"],
+        ["xpath=//a[contains(text(),'Купити')]", "xpath:link"],
+        ["xpath=//section[@id='bx_117848907_548804']/div/div/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:add2basket(548804)')]", "xpath:href"],
+        ["xpath=//section/div/div/div/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04d430de-4438-41a6-a5ac-4907b4c270a2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#es_1 > .product__media-wrap",
+      "targets": [
+        ["css=#es_1 > .product__media-wrap", "css:finder"],
+        ["xpath=//div[@id='es_1']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://book-ye.com.ua/catalog/fentezi/krov-i-popil-knyha-1-iz-krovi-j-popelu/?sc_content=21938_r427v1454')]", "xpath:href"],
+        ["xpath=//div/div/div/div[2]/div/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e0ee23f5-a0e4-44ff-b439-414eb82cfb62",
+    "name": " додати та видалити товар з кошика",
+    "commands": [{
+      "id": "1bd5e912-d7e2-49c6-8041-f3690b8586c1",
+      "comment": "",
+      "command": "open",
+      "target": "https://book-ye.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3413ce4e-c8e5-4bb6-83eb-ee9a48c2b130",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x940",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dcee0899-d3bd-4b94-af19-4b1ffb5a4551",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__catalog-btn",
+      "targets": [
+        ["css=.header__catalog-btn", "css:finder"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3422cc2-de56-42ba-9659-4cc8d53a2786",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Довідникова література",
+      "targets": [
+        ["linkText=Довідникова література", "linkText"],
+        ["css=.js-highlight", "css:finder"],
+        ["xpath=//a[contains(text(),'Довідникова література')]", "xpath:link"],
+        ["xpath=//div[@id='mCSB_1_container']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/dovidnykova-literatura/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Довідникова література')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67b07b8e-6504-49cf-bad6-a9ffcd58483b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='Зброя Перемоги. Перший повний довідник озброєння української армії']",
+      "targets": [
+        ["css=#bx_3966226736_514316 .product__media", "css:finder"],
+        ["xpath=//img[@alt='Зброя Перемоги. Перший повний довідник озброєння української армії']", "xpath:img"],
+        ["xpath=//div[@id='bx_3966226736_514316']/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8778de0-2445-448b-8e5a-9328ea4216e8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Купити",
+      "targets": [
+        ["linkText=Купити", "linkText"],
+        ["css=.button--width", "css:finder"],
+        ["xpath=//a[contains(text(),'Купити')]", "xpath:link"],
+        ["xpath=//section[@id='bx_117848907_514316']/div/div/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:add2basket(514316)')]", "xpath:href"],
+        ["xpath=//section/div/div/div/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1145ae2c-c7ab-48fa-bf72-d08c3650f07b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#es_3 > .product__media-wrap",
+      "targets": [
+        ["css=#es_3 > .product__media-wrap", "css:finder"],
+        ["xpath=//div[@id='es_3']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://book-ye.com.ua/catalog/dovidnyky/kyyivskyj-nekropol-putivnyk-dovidnyk/?sc_content=21938_r427v1454')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7380b770-a571-47b0-b40a-9d6d14be6dd0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkout__icon",
+      "targets": [
+        ["css=.checkout__icon", "css:finder"],
+        ["xpath=//div[@onclick='javascript:basketItemDel(15179804)']", "xpath:attributes"],
+        ["xpath=//div[@id='product-modal']/div/div/div/div/table/tbody/tr/td[6]/div", "xpath:idRelative"],
+        ["xpath=//td[6]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cf5b10f7-bb1b-40f3-a28c-921538f35351",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://book-ye.com.ua/", "https://book-ye.com.ua/catalog/suchasna-zarubizhna-proza/ostannye-shcho-vin-meni-skazav/", "https://book-ye.com.ua/news/travnevi-znyzhky-do-80-na-vse/"],
+  "plugins": []
+}
